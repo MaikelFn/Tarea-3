@@ -1,7 +1,7 @@
-import Semaforo from "./Componentes/Semaforo";
+import Controlador from "./Controlador";
 
 function App() {
-  return <Semaforo LuzActiva={1} posx={0} posy={0} />;
+  return <Controlador />;
 }
 
 export default App;
